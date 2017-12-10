@@ -45,10 +45,12 @@
 
 .button:active {
   transform: translateY(.2em);
+  transition: none;
 }
 
 .button:active::before {
   transform: translateY(-.1em);
+  transition: none;
 }
 
 .button,
