@@ -7,3 +7,5 @@ On hover state, the button brightens and scale up and the shadows grow beneath t
 Then on active state, button looks pressed down flat with shadow hidden.
 
 [View demo site here.](http://edwinchen.co/css_animation_touch_and_hover_button/)
+
+![Preview](screenshot.png)
