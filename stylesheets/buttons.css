@@ -42,3 +42,11 @@
 .button:hover::after {
   background: #28B54F;
 }
+
+.button:active {
+  transform: translateY(.2em);
+}
+
+.button:active::before {
+  transform: translateY(-.1em);
+}
