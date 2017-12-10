@@ -5,3 +5,15 @@
   position: relative;
   text-decoration: none;
 }
+
+.button::before {
+  background: rgba(200,200,200,.8);
+  border-radius: .25em;
+  content: "";
+  position: absolute;
+  top: 0.5em;
+  right: 0.1em;
+  bottom: -0.1em;
+  left: 0.1em;
+  z-index: -1;
+}
